@@ -1,8 +1,11 @@
 import React from 'react';
+import Signin from './signin/Signin'
 
 const App = () => {
   return (
-  <h1>CryptoBlock is up and running</h1>
+  <div>
+  	<Signin />
+  </div>
   );
 }
 export default App;
