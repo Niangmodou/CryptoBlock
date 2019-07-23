@@ -1,14 +1,27 @@
 body{
-	background-color: #1C2023; 
-	margin: 0;
-    padding: 0;
-
+	background-color: #1652F0;
+	color: white;
 }
 
 .Header{
+	text-align:center;
+}
+
+.signin{
 	background-color: white;
-	width: 100%;
-    height: 100px;
-    left: 0px;
-    top: 0px;
+	width: 1000px;
+	height: 550px;
+}
+
+
+.Form{
+	color:black;
+	padding: 50px;
+}
+.textButton{
+	position: absolute;
+	background-color: white;
+	width: 660px;
+	height: 669px;
+
 }
