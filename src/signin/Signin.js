@@ -12,12 +12,7 @@ const Signin = () => {
 		<div>
 			<Header />
 
-			<article class="signin center mw5 mw6-ns br3 hidden ba b--black-10 mv4">
-
-			  	<TextField />
-
-			  	<Buttons / >
-			</article>
+			<TextField />
 
 		</div>
 		);

@@ -3,7 +3,13 @@ import React from 'react';
 const Buttons = () => {
 
 	return (
-		<h1>This is the buttons</h1>
+		<div className="three center">
+
+		<div className="btns">
+			<input type="submit" value="Sign In" className="center Button b1"/><br />
+			<input type="submit" value="Register" className="center Button b2" />
+		</div>
+	    </div>
 		);
 }
 

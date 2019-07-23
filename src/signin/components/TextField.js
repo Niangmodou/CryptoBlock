@@ -1,23 +1,54 @@
 import React from 'react';
+import Buttons from './Buttons'
 
 const TextField = () => {
 
 	return (
-		<form className="Form center">
-	        <label>
-	          First Name:<br />
-	          <input type="text"/><br />
-	        </label>
+		<article class="mw5 mw6-ns center pt4">
+  			<div class="aspect-ratio aspect-ratio--4x3 mb4">
 
-	        <label>
-         	 Last Name:<br />
-          	<input type="text"/><br />
-        	</label>
+	    			<form className="container aspect-ratio--object cover">
+	    				<div className="one center v-mid">
+	    					<div>
+	    					</div>
 
-        	<input type="submit" value="Sign In" /><br />
-        	<input type="submit" value="Register" />
-      </form>
+	    					<div className="fname">
+					        	<label>
+					          		First Name:<br />
+					          		<input type="text"/><br />
+					        	</label>
+				        	</div>
+
+				        	<div>
+	    					</div>
+		        		</div>
+	        		
+		        		<div className="two center">
+			        		<div>
+	    					</div>
+
+	    					<div className="lname">
+					        	<label>
+					          		Last Name:<br />
+					          		<input type="text"/><br />
+					        	</label>
+				        	</div>
+				        	
+				        	<div>
+	    					</div>
+	        			</div>
+
+	        			<Buttons />
+
+	    			</form>
+
+
+  			</div>
+
+		</article>
 		);
 }
 
-export default TextField;
+export default TextField; 
+
+

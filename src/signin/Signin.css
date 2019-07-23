@@ -2,26 +2,49 @@ body{
 	background-color: #1652F0;
 	color: white;
 }
+input[type=text]{
+	border: none;	
+	border-bottom: 2px solid black;
+}
 
-.Header{
+.container{
+	background-color: white;
+	color: black;
+	display: grid;
+	grid-template-rows: 33% 33% 33%;
+}
+
+
+.one{
+	display: grid;
+	grid-template-rows: 33% 33% 33%;
+	font-size: 30px;
+}
+
+
+.two{
+	display: grid;
+	grid-template-rows: 33% 33% 33%;
+	font-size: 30px;
+}
+
+.three{
 	text-align:center;
 }
 
-.signin{
-	background-color: white;
-	width: 1000px;
-	height: 550px;
+.Header{
+	font-size: 25px;
 }
 
-
-.Form{
-	color:black;
-	padding: 50px;
+.btns{
+	display:inline-block;
 }
-.textButton{
-	position: absolute;
-	background-color: white;
-	width: 660px;
-	height: 669px;
 
+.Button{
+
+	background-color: #1652F0;
+	color:white;
+	border-radius: 15px;
+	width: 320px;
+	height: 50px;
 }
