@@ -14,7 +14,7 @@ const TextField = () => {
 
 	    					<div className="fname">
 					        	<label>
-					          		First Name:<br />
+					          		Email<br />
 					          		<input type="text"/><br />
 					        	</label>
 				        	</div>
@@ -29,7 +29,7 @@ const TextField = () => {
 
 	    					<div className="lname">
 					        	<label>
-					          		Last Name:<br />
+					          		Password<br />
 					          		<input type="text"/><br />
 					        	</label>
 				        	</div>

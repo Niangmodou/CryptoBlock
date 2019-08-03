@@ -1,0 +1,55 @@
+
+.page{
+	position: fixed;
+  	top: 0;
+  	left: 0;
+  	bottom: 0;
+  	right: 0;
+  	overflow: auto;
+	display:grid;
+	grid-template-rows: 1fr 1fr;
+}
+
+.header{
+	grid-row:1/2;
+}
+
+.app-title{
+	margin-left: 5%;
+}
+
+.text-top{
+	text-align: center;
+	font-size: 200%;
+}
+
+.text-bottom{
+	text-align: center;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 225%;
+}
+
+.footer{
+	grid-row: 2/2;
+	background-color: white;
+	border-top-right-radius: 30px;
+	border-top-left-radius: 30px;
+}
+
+.footer-title{
+	color:#1652F0;
+	text-align: center; 
+}
+
+.btn{
+	position: absolute;
+    left: 50%;
+    transform: translate(-50%, -5%);
+    text-align: center;
+
+}
+
+.b1{
+	margin-bottom: 5%;
+}
