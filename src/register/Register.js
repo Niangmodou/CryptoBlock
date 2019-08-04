@@ -6,12 +6,11 @@ import './register.css'
 
 const Register = () => {
 	return(
-		<div>
+		<div className="register-page">
 			<Header />
 			<Textfield />
-			<Buttons />
 		</div>
 		);
 }
 
-export defualt Register;
+export default Register;
