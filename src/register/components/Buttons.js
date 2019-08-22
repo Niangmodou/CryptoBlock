@@ -1,9 +1,15 @@
 import React from 'react';
 
-const Buttons = () => {
+const Buttons = (props) => {
+
+	const {onRouteChange}= props;
+
 	return(
-		<div className="btn">
-				<input type="submit" value="Register" className="center Button" />
+		<div className="btnRegister">
+				<input onClick={() => onRouteChange('dashboard')}
+					   type="submit" 
+					   value="Register" 
+					   className="centerRegister ButtonRegister" />
 		</div>
 		);
 }

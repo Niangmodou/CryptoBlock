@@ -3,12 +3,16 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import './homepage.css'
 
-const Homepage = () => {
+const Homepage = (props) => {
+
+	const {onRouteChange} = props;
 
 	return (
-		<div className="page">
+		<div className="pageHomepage">
 			<Header />
-			<Footer />
+			<Footer 
+			onRouteChange={onRouteChange}
+			/>
 		</div>
 		);
 }

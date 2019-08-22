@@ -1,14 +1,18 @@
 import React from 'react';
 import Header from './components/Header.js';
 import Textfield from './components/Textfield.js';
-import Buttons from './components/Buttons.js'
 import './register.css'
 
-const Register = () => {
+const Register = (props) => {
+
+	const {onRouteChange} = props;
+
 	return(
-		<div className="register-page">
+		<div className="register-pageRegister">
 			<Header />
-			<Textfield />
+			<Textfield 
+				onRouteChange = {onRouteChange}
+			/>
 		</div>
 		);
 }

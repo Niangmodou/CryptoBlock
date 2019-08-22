@@ -1,10 +1,13 @@
 import React from 'react';
 import Buttons from './Buttons';
 
-const Footer = () => {
+const Footer = (props) => {
+
+	const {onRouteChange} = props;
+
 	return(
-		<div className="footer">
-			<Buttons />
+		<div className="footerHomepage">
+			<Buttons onRouteChange={onRouteChange}/>
 		</div>
 		);
 }

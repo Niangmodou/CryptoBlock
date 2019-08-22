@@ -1,5 +1,5 @@
 
-.page{
+.pageHomepage{
 	position: fixed;
   	top: 0;
   	left: 0;
@@ -8,41 +8,44 @@
   	overflow: auto;
 	display:grid;
 	grid-template-rows: 1fr 1fr;
+	background-color: #1652F0;
 }
 
-.header{
+.headerHomepage{
 	grid-row:1/2;
+	background-color: #1652F0;
+	color: white;
 }
 
-.app-title{
+.app-titleHomepage{
 	margin-left: 5%;
 }
 
-.text-top{
+.text-topHomepage{
 	text-align: center;
 	font-size: 175%;
 }
 
-.text-bottom{
+.text-bottomHomepage{
 	text-align: center;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 225%;
 }
 
-.footer{
+.footerHomepage{
 	grid-row: 2/2;
 	background-color: white;
 	border-top-right-radius: 30px;
 	border-top-left-radius: 30px;
 }
 
-.footer-title{
+.footer-titleHomepage{
 	color:#1652F0;
 	text-align: center; 
 }
 
-.btn{
+.btnHomepage{
 	position: absolute;
     left: 50%;
     transform: translate(-50%, -5%);
@@ -50,6 +53,14 @@
 
 }
 
-.b1{
+.ButtonHomepage{
+	background-color: #1652F0;
+	color:white;
+	border-radius: 15px;
+	width: 320px;
+	height: 50px;
+}
+
+.b1Homepage{
 	margin-bottom: 5%;
 }

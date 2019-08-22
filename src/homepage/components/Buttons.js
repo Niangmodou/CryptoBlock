@@ -1,12 +1,15 @@
 import React from 'react';
 
-const Buttons = () => {
+const Buttons = (props) => {
+
+	const {onRouteChange} = props;
+
 	return (
 		<div>
-			<div className="btn">
-				<h1 className="footer-title">Get Started Below</h1>
-				<input type="submit" value="Sign In" className="Button b1"/><br />
-				<input type="submit" value="Register" className="Button b2" />
+			<div className="btnHomepage">
+				<h1 className="footer-titleHomepage">Get Started Below</h1>
+				<input onClick={() => onRouteChange('signin')} type="submit" value="Sign In" className="ButtonHomepage b1Homepage"/><br />
+				<input onClick={() => onRouteChange('register')} type="submit" value="Register" className="ButtonHomepage b2Homepage" />
 			</div>
 		</div>
 		);

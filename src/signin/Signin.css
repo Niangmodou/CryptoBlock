@@ -1,13 +1,17 @@
 body{
 	background-color: #1652F0;
+}
+.pageSignin{
+	min-height: 100vh;
 	color: white;
 }
-input[type=text]{
+
+.inputSignin{
 	border: none;	
 	border-bottom: 2px solid black;
 }
 
-.container{
+.containerSignin{
 	background-color: white;
 	color: black;
 	display: grid;
@@ -15,33 +19,32 @@ input[type=text]{
 }
 
 
-.one{
+.oneSignin{
 	display: grid;
 	grid-template-rows: 33% 33% 33%;
 	font-size: 30px;
 }
 
 
-.two{
+.twoSignin{
 	display: grid;
 	grid-template-rows: 33% 33% 33%;
 	font-size: 30px;
 }
 
-.three{
+.threeSignin{
 	text-align:center;
 }
 
-.Header{
+.HeaderSignin{
 	font-size: 25px;
 }
 
-.btns{
+.btnsSignin{
 	display:inline-block;
 }
 
-.Button{
-
+.ButtonSignin{
 	background-color: #1652F0;
 	color:white;
 	border-radius: 15px;

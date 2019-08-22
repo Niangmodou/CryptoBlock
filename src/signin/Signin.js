@@ -3,14 +3,16 @@ import Header from './components/Header'
 import TextField from './components/TextField'
 import './Signin.css';
 
-const Signin = () => {
+const Signin = (props) => {
+
+	const {onRouteChange} = props;
 
 	return(
-		<div>
+		<div className="pageSignin">
 			<Header />
-
-			<TextField />
-
+			<TextField 
+				onRouteChange={onRouteChange}
+			/>
 		</div>
 		);
 

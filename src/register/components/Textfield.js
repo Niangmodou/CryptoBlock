@@ -1,40 +1,45 @@
 import React from 'react';
 import Buttons from './Buttons';
 
-const Textfield = () => {
-	return (
-		<form className="container page-container center">
+const Textfield = (props) => {
 
-	  		<div className="first-name">
+	const {onRouteChange} = props;
+
+	return (
+		<form className="containerRegister page-containerRegister center">
+
+	  		<div className="first-nameRegister">
 				<label>
 					First Name<br />
-					<input type="text"/><br />
+					<input type="text" className="inputRegister"/><br />
 				</label>
 			</div>
 
-			<div className="last-name">
+			<div className="last-nameRegister">
 				<label>
 					Last Name<br />
-					<input type="text"/><br />
+					<input type="text" className="inputRegister"/><br />
 				</label>
 	  		</div>
 
-	  		<div className="email">
+	  		<div className="emailRegister">
 				<label>
 					Email<br />
-					<input type="text"/><br />
+					<input type="text" className="inputRegister"/><br />
 				</label>
 	  		</div>
 
-	  		<div className="password">
+	  		<div className="passwordRegister">
 				<label>
 					Password<br />
-					<input type="text"/><br />
+					<input type="text" className="inputRegister"/><br />
 				</label>
 	  		</div>
 
-	  		<div className="button-container center v-align">
-	  			<Buttons />
+	  		<div className="button-containerRegister center v-alignRegister">
+	  			<Buttons 
+	  				onRouteChange={onRouteChange}
+	  			/>
 	  		</div>
   		</form>
 		);

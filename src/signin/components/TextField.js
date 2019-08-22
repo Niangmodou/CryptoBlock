@@ -1,21 +1,23 @@
 import React from 'react';
 import Buttons from './Buttons'
 
-const TextField = () => {
+const TextField = (props) => {
+
+	const {onRouteChange} = props;
 
 	return (
 		<article class="mw5 mw6-ns center pt4">
   			<div class="aspect-ratio aspect-ratio--4x3 mb4">
 
-	    			<form className="container aspect-ratio--object cover">
-	    				<div className="one center v-mid">
+	    			<form className="containerSignin aspect-ratio--object cover">
+	    				<div className="oneSignin center v-mid">
 	    					<div>
 	    					</div>
 
-	    					<div className="fname">
+	    					<div className="fnameSignin">
 					        	<label>
 					          		Email<br />
-					          		<input type="text"/><br />
+					          		<input type="text" className="inputSignin"/><br />
 					        	</label>
 				        	</div>
 
@@ -23,14 +25,14 @@ const TextField = () => {
 	    					</div>
 		        		</div>
 	        		
-		        		<div className="two center">
+		        		<div className="twoSignin center">
 			        		<div>
 	    					</div>
 
-	    					<div className="lname">
+	    					<div className="lnameSignin">
 					        	<label>
 					          		Password<br />
-					          		<input type="text"/><br />
+					          		<input type="text" className="inputSignin"/><br />
 					        	</label>
 				        	</div>
 				        	
@@ -38,7 +40,9 @@ const TextField = () => {
 	    					</div>
 	        			</div>
 
-	        			<Buttons />
+	        			<Buttons 
+	        				onRouteChange={onRouteChange}
+	        			/>
 
 	    			</form>
 
