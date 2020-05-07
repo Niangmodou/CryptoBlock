@@ -1,0 +1,69 @@
+
+.pageHomepage{
+	position: fixed;
+  	top: 0;
+  	left: 0;
+  	bottom: 0;
+  	right: 0;
+  	overflow: auto;
+	display:grid;
+	grid-template-rows: 1fr 1fr;
+	background-color: #1652F0;
+}
+
+.headerHomepage{
+	grid-row:1/2;
+	background-color: #1652F0;
+	color: white;
+}
+
+.app-titleHomepage{
+	margin-left: 5%;
+}
+
+.text-topHomepage{
+	text-align: center;
+	font-size: 175%;
+}
+
+.text-bottomHomepage{
+	text-align: center;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 225%;
+}
+
+.footerHomepage{
+	grid-row: 2/2;
+	background-color: white;
+	border-top-right-radius: 30px;
+	border-top-left-radius: 30px;
+}
+
+.footer-titleHomepage{
+	color:#1652F0;
+	text-align: center; 
+}
+
+.btnHomepage{
+	position: absolute;
+    left: 50%;
+    transform: translate(-50%, -5%);
+    text-align: center;
+
+}
+
+.ButtonHomepage{
+	background-color: #1652F0;
+	color:white;
+	border-radius: 15px;
+	width: 320px;
+	height: 50px;
+}
+
+.ButtonHomepage:hover{
+	background-color: blue;
+}
+.b1Homepage{
+	margin-bottom: 5%;
+}
